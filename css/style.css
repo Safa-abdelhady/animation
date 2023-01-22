@@ -1,0 +1,119 @@
+body{
+    height: 1000px;
+    background-image: url(../images/pexels-eberhard-grossgasteiger-443446.jpg2.jpg);
+    
+}
+.div1{
+    width: 200px;
+    height: 180px;
+    background-image: url(../images/Untitled\ \(3\).png);
+    background-size: cover;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes change {
+   0% {left: 0;}
+
+    100% {left: 1000px;}
+}
+.div2{
+    width: 230px;
+    height: 180px;
+    top: 100px;
+    margin-left: 1100px;
+    background-image: url(../images/Untitled\ \(4\).png);
+    background-size: cover;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+@keyframes moving {
+    0% {right: 0;}
+    100% {right: 1000px;}
+}
+.div3{
+    width: 200px;
+    height: 180px;
+    top: 200px;
+    background-image: url(../images/Untitled\ \(3\).png);
+    background-size: cover;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+@keyframes change {
+    0% {left: 0;}
+ 
+     100% {left: 1000px;}
+ }
+ .div4{
+    width: 230px;
+    height: 180px;
+    top: 340px;
+    margin-left: 1100px;
+    background-image: url(../images/Untitled\ \(4\).png);
+    background-size: cover;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+ }
+ .div5{
+    width: 200px;
+    height: 180px;
+    top: 460px;
+    background-image: url(../images/Untitled\ \(3\).png);
+    background-size: cover;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+ }
+ .div6{
+    width: 230px;
+    height: 180px;
+    top: 580px;
+    margin-left: 1100px;
+    background-image: url(../images/Untitled\ \(4\).png);
+    background-size: cover;
+    animation-name: moving;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    animation-iteration-count: infinite;
+ }
+ .div1:hover{
+   animation-play-state: paused;
+ }
+ .div2:hover{
+    animation-play-state: paused;
+  }
+  .div3:hover{
+    animation-play-state: paused;
+  }
+  .div4:hover{
+    animation-play-state: paused;
+  }
+  .div5:hover{
+    animation-play-state: paused;
+  }
+  .div6:hover{
+    animation-play-state: paused;
+  }
+
+
